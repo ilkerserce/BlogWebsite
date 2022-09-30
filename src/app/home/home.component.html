@@ -155,8 +155,9 @@
   <h2 class="text-center my-3">Kılavuzlar:</h2>
 
   <ul class="list-group">
-    <li *ngFor="let post of posts" class="list-group-item">
-      {{ post.post_value }}
+    <li *ngFor="let post of posts" class="list-group-item"> 
+      <a href="{{post.guid}}" >{{ post.post_title }} </a>
     </li>
   </ul>
-</div>
+
+      </div>
