@@ -9,7 +9,7 @@
       </svg>
     </button>
 
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse  justify-content-center" id="navigation"
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse justify-content-center" id="navigation"
       aria-expanded="false">
       <ul class="navbar-nav flex-row flex-wrap text-center">
         <li class="nav-item col-12 py-3 col-md-auto">
@@ -18,9 +18,31 @@
         <li class="nav-item col-12 py-3 col-md-auto">
           <a class="nav-link" mat-button routerLink="/hakkimda" (click)="isMenuCollapsed = true">Hakkımda</a>
         </li>
-        <li class="nav-item col-12 py-3 col-md-auto">
-          <a class="nav-link" mat-button routerLink="/blog">Blog</a>
-        </li>
+        <li class="nav-item">Burada Kaldım, Dropdown menü yapıyorum. Başladıktan sonra sil.<!-- Burada Kaldım, Dropdown menü yapıyorum. Başladıktan sonra sil.--></li>
+        <li ngbDropdown class="nav-item dropdown col-12 py-3 col-md-auto">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" mat-button routerLink="/blog">Blog</a>
+          <div ngbDropdownToggle="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a mat-button routerLink="/blog/web" class="dropdown-item"Test></a>
+            <a mat-button routerLink="/blog/dijital-pazarlama" class="dropdown-item">Test</a>
+            <a mat-button routerLink="/blog/icerik-editorlugu" class="dropdown-item">Test</a>
+            <a mat-button routerLink="/blog/sosyal-medya" class="dropdown-item">Test</a>
+          </div>
+
+          <!-- Burada Kaldım, Dropdown menü yapıyorum. Başladıktan sonra sil.-->
+        </li>        
+
+        <!--Burası Yedek, yukardaki liste olmazsa diye save aldım.-->
+        <!-- <li class="nav-item dropdown col-12 py-3 col-md-auto">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" mat-button routerLink="/blog">Blog</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a mat-button routerLink="/blog/web" class="dropdown-item"Test></a>
+            <a mat-button routerLink="/blog/dijital-pazarlama" class="dropdown-item">Test</a>
+            <a mat-button routerLink="/blog/icerik-editorlugu" class="dropdown-item">Test</a>
+            <a mat-button routerLink="/blog/sosyal-medya" class="dropdown-item">Test</a>
+          </div>
+        </li> -->
         <li class="nav-item col-12 py-3 col-md-auto">
           <a class="nav-link" mat-button routerLink="/iletisim" (click)="isMenuCollapsed = true">İletişim</a>
         </li>

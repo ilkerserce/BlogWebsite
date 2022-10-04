@@ -13,6 +13,10 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { SosyalMedyaComponent } from './blog/sosyal-medya/sosyal-medya.component';
+import { WebComponent } from './blog/web/web.component';
+import { IcerikEditorluguComponent } from './blog/icerik-editorlugu/icerik-editorlugu.component';
+import { DijitalPazarlamaComponent } from './blog/dijital-pazarlama/dijital-pazarlama.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,10 @@ import { PrivacyComponent } from './privacy/privacy.component';
     FooterComponent,
     HomeComponent,
     PrivacyComponent,
+    SosyalMedyaComponent,
+    WebComponent,
+    IcerikEditorluguComponent,
+    DijitalPazarlamaComponent,
   ],
   imports: [
     BrowserModule,

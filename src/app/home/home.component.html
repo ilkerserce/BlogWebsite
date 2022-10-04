@@ -154,10 +154,11 @@
   </div>
   <h2 class="text-center my-3">Kılavuzlar:</h2>
 
-  <ul class="list-group">
-    <li *ngFor="let post of posts" class="list-group-item"> 
-      <a href="{{post.guid}}" >{{ post.post_title }} </a>
-    </li>
-  </ul>
-
-      </div>
+  <div class="bg-dark text-center">
+    <ul class="list-group border border-success">
+      <li *ngFor="let post of posts" class="list-group-item bg-dark text-gray  border border-success">
+        <a href="{{post.guid}}">{{ post.post_title }} </a>
+      </li>
+    </ul>
+  </div>
+</div>
