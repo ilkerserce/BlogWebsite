@@ -14,6 +14,7 @@ export const routes: Routes = [
     {path: 'anasayfa', component: HomeComponent},
     {path: '', redirectTo: '/anasayfa', pathMatch: 'full'},
     {path: 'hakkimda', component: AboutmeComponent},    
+    {path: 'blog', component: BlogComponent},    
     {path: 'web', component: WebComponent},
     {path: 'dijital-pazarlama', component: DijitalPazarlamaComponent},
     {path: 'icerik-editorlugu', component: IcerikEditorluguComponent},

@@ -23,7 +23,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "80",
@@ -49,7 +49,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "265",
@@ -74,7 +74,8 @@
     "menu_order": "0",
     "post_type": "post",
     "post_mime_type": "",
-    "comment_count": "0"
+    "comment_count": "0",
+    "post_category": "0"
   },
   {
     "ID": "203",
@@ -100,7 +101,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "219",
@@ -126,7 +127,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "235",
@@ -152,7 +153,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "383",
@@ -178,7 +179,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "271",
@@ -204,7 +205,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 0
+    "post_category":  "0"
   },
   {
     "ID": "275",
@@ -230,7 +231,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 1
+    "post_category":  "1"
   },
   {
     "ID": "278",
@@ -256,7 +257,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "280",
@@ -282,7 +283,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 1
+    "post_category":  "1"
   },
   {
     "ID": "282",
@@ -308,7 +309,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 1
+    "post_category":  "1"
   },
   {
     "ID": "285",
@@ -334,7 +335,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 1
+    "post_category":  "1"
   },
   {
     "ID": "287",
@@ -360,7 +361,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 1
+    "post_category":  "1"
   },
   {
     "ID": "289",
@@ -386,7 +387,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "291",
@@ -412,7 +413,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "294",
@@ -438,7 +439,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "297",
@@ -464,7 +465,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "299",
@@ -490,7 +491,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "301",
@@ -516,7 +517,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "390",
@@ -542,7 +543,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "448",
@@ -568,7 +569,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "454",
@@ -594,7 +595,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 2
+    "post_category":  "2"
   },
   {
     "ID": "1033",
@@ -620,7 +621,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 3
+    "post_category":  "3"
   },
   {
     "ID": "1051",
@@ -646,7 +647,7 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 3
+    "post_category":  "3"
   },
   {
     "ID": "981",
@@ -672,6 +673,6 @@
     "post_type": "post",
     "post_mime_type": "",
     "comment_count": "0",
-    "post_category": 3
+    "post_category":  "3"
   }
 ]
