@@ -10,12 +10,8 @@ export class HomeComponent {
   postsUrl = this.postsService.postsUrl;
   posts: any;
 
-  ngAfterViewChecked(): void {
+  ngAfterContentChecked(): void {
     this.posts = this.postsService.Posts;
-    console.log('Burası homeComponent.ts');
-    console.log(this.posts);
-    console.log('Burası homeComponent.ts x2');
-    console.log(this.postsService.Posts);
   }
 
   constructor(private postsService: PostsService) {}

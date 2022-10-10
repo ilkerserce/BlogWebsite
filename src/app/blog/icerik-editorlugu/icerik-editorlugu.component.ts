@@ -1,23 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component } from '@angular/core';
+import { PostsService } from 'src/app/posts.service';
 
 @Component({
   selector: 'app-icerik-editorlugu',
   templateUrl: './icerik-editorlugu.component.html',
-  styleUrls: ['./icerik-editorlugu.component.scss']
+  styleUrls: ['./icerik-editorlugu.component.scss'],
 })
-export class IcerikEditorluguComponent{
-  
-  contentUrl = 'http://localhost:3000/posts/?post_category=content';
+export class IcerikEditorluguComponent {
+  contentUrl = this.postsService.contentUrl;
   contentPosts: any;
 
-  constructor(private httpClient: HttpClient) {
-
-    httpClient.get(this.contentUrl).subscribe(response => {
-      console.log(this.contentPosts);
-      this.contentPosts = response
-    }
-    )
+  ngAfterContentChecked(): void {
+    this.contentPosts = this.postsService.contentPosts;
   }
-  
+
+  constructor(private postsService: PostsService) {}
 }
