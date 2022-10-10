@@ -24,7 +24,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image" : "https://www.parasizkaldim.com/wp-content/uploads/2022/06/internetten-para-kazanmanin-yollari.jpg"
     },
     {
       "ID": "80",
@@ -50,7 +51,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image" : "https://www.parasizkaldim.com/wp-content/uploads/2022/06/kolay-para.jpg"
     },
     {
       "ID": "265",
@@ -76,7 +78,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category": "content"
+      "post_category": "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/web-sitesinde-iceriklerin-onemi.jpg"
     },
     {
       "ID": "203",
@@ -102,7 +105,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/internet-sitesi-olusturmak-2.jpg"
     },
     {
       "ID": "219",
@@ -128,7 +132,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/wordpress-nedir.jpg"
     },
     {
       "ID": "235",
@@ -154,7 +159,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/web-meslekleri-2.jpg"
     },
     {
       "ID": "383",
@@ -180,7 +186,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "social-media"
+      "post_category":  "social-media",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/sosyal-medya-uzmani.jpg"
     },
     {
       "ID": "271",
@@ -206,7 +213,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/internet-reklamlari.jpg"
     },
     {
       "ID": "275",
@@ -232,7 +240,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/google-adwords-3.jpg"
     },
     {
       "ID": "278",
@@ -258,7 +267,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/dijital-pazarlama.jpg"
     },
     {
       "ID": "280",
@@ -284,7 +294,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/google-adwords-2.jpg"
     },
     {
       "ID": "282",
@@ -310,7 +321,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/sem-nedir-5-300x200.jpg"
     },
     {
       "ID": "285",
@@ -336,7 +348,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/seo-nedir.jpg"
     },
     {
       "ID": "287",
@@ -362,7 +375,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/white-hat-vs-black-hat-seo.jpg"
     },
     {
       "ID": "289",
@@ -388,7 +402,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "content"
+      "post_category":  "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/icerik-nedir.jpg"
     },
     {
       "ID": "291",
@@ -414,7 +429,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "content"
+      "post_category":  "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/icerik-editoru.jpg"
     },
     {
       "ID": "294",
@@ -440,7 +456,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "content"
+      "post_category":  "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/seo-uyumlu-makale.jpg"
     },
     {
       "ID": "297",
@@ -466,7 +483,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "content"
+      "post_category":  "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/icerik-uretemiyorum.jpg"
     },
     {
       "ID": "299",
@@ -492,7 +510,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "digital-ads"
+      "post_category":  "digital-ads",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/turkiyede-ve-dunyada-trenleri-takip-etmek.jpg"
     },
     {
       "ID": "301",
@@ -518,7 +537,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "content"
+      "post_category":  "content",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/icerik-araclari.jpg"
     },
     {
       "ID": "390",
@@ -544,7 +564,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "social-media"
+      "post_category":  "social-media",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/sosyal-medya-hesap-yonetimi.jpg"
     },
     {
       "ID": "448",
@@ -570,7 +591,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "social-media"
+      "post_category":  "social-media",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/sosyal-medya-reklamlari.jpg"
     },
     {
       "ID": "454",
@@ -596,7 +618,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "social-media"
+      "post_category":  "social-media",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/facebook-business-manager.jpg"
     },
     {
       "ID": "1033",
@@ -622,7 +645,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/yazilim-gelistirme-sureci-300x197.jpg.webp"
     },
     {
       "ID": "1051",
@@ -648,7 +672,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image": "https://www.parasizkaldim.com/wp-content/uploads/2022/07/wordpress-nedir-300x225.jpg"
     },
     {
       "ID": "981",
@@ -674,7 +699,8 @@
       "post_type": "post",
       "post_mime_type": "",
       "comment_count": "0",
-      "post_category":  "web"
+      "post_category":  "web",
+      "post_image" : "https://www.parasizkaldim.com/wp-content/uploads/2022/07/hangi-sitelerden-para-kazanilir.jpg"
     }
   ]
 }

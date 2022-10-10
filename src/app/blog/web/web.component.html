@@ -17,6 +17,20 @@
   </div>
 </div>
 <h2 class="text-center pt-5">Web Kılavuzları:</h2>
+
+<div class="row text-center">
+  <div
+    *ngFor="let webPost of webPosts"
+    class="col-12 col-md-3 py-3 my-3"
+  >
+    <img src="{{ webPost.post_image }}" height="200" width="300" />
+    <h3 class="blog-titles my-1">
+      <a href="{{ webPost.guid }}">{{ webPost.post_title }}</a>
+    </h3>
+    <br />
+  </div>
+</div>
+
 <div class="bg-dark text-center">
   <ul class="list-group border border-success">
     <li *ngFor="let webPost of webPosts" class="list-group-item bg-dark text-gray  border border-success">
