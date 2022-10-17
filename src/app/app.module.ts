@@ -20,7 +20,10 @@ import { DijitalPazarlamaComponent } from './home/blog/dijital-pazarlama/dijital
 import { ReadblogComponent } from './home/readblog/readblog.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './admin/login/login.component';
-
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.component';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import { HomepageComponent } from './home/homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +41,10 @@ import { LoginComponent } from './admin/login/login.component';
     ReadblogComponent,
     AdminComponent,
     LoginComponent,
+    PagenotfoundComponent,
+    AdminSidebarComponent,
+    AdminDashboardComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,

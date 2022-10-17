@@ -11,11 +11,14 @@ export class PostsService {
   contentPosts: any;
   socialMediaPosts: any;
   digitalAdsPosts: any;
+  SelectedPost: any;
+
   postsUrl = 'http://localhost:3000/posts/?post_type=post';
   webUrl = 'http://localhost:3000/posts/?post_category=web';
   contentUrl = 'http://localhost:3000/posts/?post_category=content';
   socialMediaUrl = 'http://localhost:3000/posts/?post_category=social-media';
   digitalAdsUrl = 'http://localhost:3000/posts/?post_category=digital-ads';
+  selectedUrl = 'http://localhost:3000/posts/?post_name=';
 
   getAllPosts() {
     this.httpClient.get(this.postsUrl).subscribe((response) => {
@@ -25,29 +28,39 @@ export class PostsService {
     });
   }
 
-  getWebPosts() {
-    this.httpClient.get(this.webUrl).subscribe((response) => {
-      this.webPosts = response;
-    });
-  }
+  getCurrentPost = (name: string) => {
+    this.httpClient.get(this.selectedUrl + name).subscribe((response) => {
+      this.SelectedPost = response;
+      console.log("Burası postservice");
+      console.log(this.SelectedPost);
 
-  getContentPosts() {
-    this.httpClient.get(this.contentUrl).subscribe((response) => {
-      this.contentPosts = response;
     });
-  }
+  };
 
-  getSocialMediaPosts() {
-    this.httpClient.get(this.socialMediaUrl).subscribe((response) => {
-      this.socialMediaPosts = response;
-    });
-  }
 
-  getDigitalAdsPosts() {
-    this.httpClient.get(this.digitalAdsUrl).subscribe((response) => {
-      this.digitalAdsPosts = response;
-    });
-  }
+  // getWebPosts() {
+  //   this.httpClient.get(this.webUrl).subscribe((response) => {
+  //     this.webPosts = response;
+  //   });
+  // }
+
+  // getContentPosts() {
+  //   this.httpClient.get(this.contentUrl).subscribe((response) => {
+  //     this.contentPosts = response;
+  //   });
+  // }
+
+  // getSocialMediaPosts() {
+  //   this.httpClient.get(this.socialMediaUrl).subscribe((response) => {
+  //     this.socialMediaPosts = response;
+  //   });
+  // }
+
+  // getDigitalAdsPosts() {
+  //   this.httpClient.get(this.digitalAdsUrl).subscribe((response) => {
+  //     this.digitalAdsPosts = response;
+  //   });
+  // }
 
   constructor(private httpClient: HttpClient) {
     const getWebPosts = () => {
@@ -74,6 +87,7 @@ export class PostsService {
         this.digitalAdsPosts = response;
       });
     };
+
 
     this.getAllPosts();
     getWebPosts();
