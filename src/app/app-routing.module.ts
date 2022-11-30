@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutmeComponent } from './home/aboutme/aboutme.component';
-import { BlogComponent } from './home/blog/blog.component';
-import { ContactComponent } from './home/contact/contact.component';
-import { PrivacyComponent } from './home/privacy/privacy.component';
-import { WebComponent } from './home/blog/web/web.component';
-import { DijitalPazarlamaComponent } from './home/blog/dijital-pazarlama/dijital-pazarlama.component';
-import { IcerikEditorluguComponent } from './home//blog/icerik-editorlugu/icerik-editorlugu.component';
-import { SosyalMedyaComponent } from './home//blog/sosyal-medya/sosyal-medya.component';
-import { AdminComponent } from './admin/admin.component';
-import { LoginComponent } from './admin/login/login.component';
-import { HomepageComponent } from './home/homepage/homepage.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
-import { ReadblogComponent } from './home/readblog/readblog.component';
+import { AboutmeComponent } from './screens/client/aboutme/aboutme.component';
+import { BlogComponent } from './screens/client/blog/blog.component';
+import { ContactComponent } from './screens/client/contact/contact.component';
+import { PrivacyComponent } from './screens/client/privacy/privacy.component';
+import { WebComponent } from './screens/client/blog/web/web.component';
+import { DijitalPazarlamaComponent } from './screens/client/blog/dijital-pazarlama/dijital-pazarlama.component';
+import { IcerikEditorluguComponent } from './screens/client//blog/icerik-editorlugu/icerik-editorlugu.component';
+import { SosyalMedyaComponent } from './screens/client//blog/sosyal-medya/sosyal-medya.component';
+import { LoginComponent } from './screens/login/login.component';
+import { HomepageComponent } from './screens/client/homepage/homepage.component';
+import { PagenotfoundComponent } from './screens/client/pagenotfound/pagenotfound.component';
+import { ReadblogComponent } from './screens/client/readblog/readblog.component';
+import { AdminComponent } from './screens/admin/admin/admin.component';
 
 export const routes: Routes = [
 
@@ -29,10 +28,8 @@ export const routes: Routes = [
   { path: 'arsiv/:postname', component: ReadblogComponent },
   { path: 'iletisim', component: ContactComponent },
   { path: 'gizlilik-politikasi', component: PrivacyComponent },
-  { path: 'adm_login', component: LoginComponent },
-  { path: 'adm_panel', component: AdminComponent },
-  { path: 'adm_dashboard', component: AdminDashboardComponent },
   { path: '**', component: PagenotfoundComponent },
+  { path: 'adm_panel', component: AdminComponent }
 
 ];
 

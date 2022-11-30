@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div *ngFor="let data of selectedPost" class="col-9">
+      <h2 class="text-center">{{ data.post_title }}</h2>
+      <div>
+        <div [innerHTML]="data.post_content | safeHtml"></div>
+      </div>
+
+      <small>Yazar: {{ data.post_author }}</small>
+    </div>
+  </div>
+</div>
